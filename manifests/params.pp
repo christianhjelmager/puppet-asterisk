@@ -35,6 +35,10 @@ class asterisk::params {
     # Some added security default options
     'allowguest'       => 'no',
     'alwaysauthreject' => 'yes',
+    # Added options to handle NAT'ed boxes
+    'externip'         => '',
+    'localnet'         => '',
+    'nat'              => 'no', 
   }
 
   $voicemail_options = {
