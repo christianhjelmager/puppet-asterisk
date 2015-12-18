@@ -36,8 +36,8 @@ class asterisk::params {
     'allowguest'       => 'no',
     'alwaysauthreject' => 'yes',
     # Added options to handle NAT'ed boxes
-    'externip'         => '',
-    'localnet'         => '',
+    'externip'         => [],
+    'localnet'         => [],
     'nat'              => 'no', 
   }
 

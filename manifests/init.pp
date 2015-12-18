@@ -58,9 +58,6 @@ class asterisk (
   validate_array($real_sip_options['allow'])
   validate_array($real_sip_options['disallow'])
   validate_array($real_sip_options['domain'])
-  validate_array($real_sip_options['localnet'])
-  validate_array($real_sip_options['externip'])
-  validate_array($real_sip_options['nat'])
   $real_voicemail_options = merge(
     $asterisk::params::voicemail_options, $voicemail_options
   )
